@@ -1,11 +1,11 @@
 import java.util.*;
-public class Seconds{
+public class Time{
     public static void main(String[] args){
-        Scanner p = new Scanner(System.in);
-        int a = p.nextInt();
-        int H = a/3600;
-        int M = (a%3600)/60;
-        int S = ((a%3600)%60);
-        System.out.println("H:M:S-"+H+':'+M+':'+S);
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int h = n/3600;
+        int m = (n%3600)/60;
+        int s = (n%3600)%60;
+        System.out.print("H:M:S-"+h+":"+m+":"+s);
     }
 }
